@@ -226,3 +226,37 @@ using namespace std;
 //         cout<<n<<" ";
 //     }
 // }
+
+// //Array reverse
+//In Single Array
+// int main(){
+//     int temp{0};
+//     int num[10] = {23,45,34,76,78,23,45,77,65,56};
+//     int sizeArr = sizeof(num) / 4;
+//     for (size_t i = 0; i < sizeArr / 2; i++)
+//     {
+//         temp = num[i];
+//         num[i] = num[sizeArr-i-1];
+//         num[sizeArr-i-1] = temp;
+//     }
+//     cout<<"The Reverse of this array: ";
+//     for(int n : num){
+//         cout<<n<<" ";
+//     }
+//     return 0;
+// }
+
+// //In New Array
+// int main(){
+//     int temp{0};
+//     int num[10] = {23,45,34,76,78,23,45,77,65,56};
+//     int sizeArr = sizeof(num) / 4;
+//     int num2[sizeArr];
+//     for(size_t i{0}; i < sizeArr ; i++){
+//         num2[i] = num[sizeArr - i - 1];
+//     }
+//     cout<<"The reverve array will be: ";
+//     for(int n : num2){
+//         cout<<n<<" ";
+//     }
+// }
