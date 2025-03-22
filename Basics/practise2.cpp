@@ -318,3 +318,47 @@ using namespace std;
 //     }
 //     return 0 ;
 // }
+
+// //Selection Sorting
+// int main(){
+//     array<int,5>num = {23,54,12,45,9};
+//     for (size_t i = 0; i < num.size(); i++)
+//     {
+//         int temp{0};
+//         for (size_t j = i + 1; j < num.size(); j++)
+//         {
+//             if(num[i] < num[j]){
+//                 temp = num[i];
+//                 num[i] = num[j];
+//                 num[j] = temp;
+//             }
+//         }
+//     }
+//     for(int n : num){
+//         cout<<n<<" ";
+//     }
+//     return 0 ;
+// }
+
+// // Bubble Sorting
+// int main()
+// {
+//     array<int, 5> num = {23, 372, 76, 32, 4};
+//     for (size_t i = 0; i < num.size() - 1; i++)
+//     {
+//         int temp{0};
+//         for (size_t j = 0; j < num.size() - i - 1; j++)
+//         {
+//             if (num[j] > num[j + 1])
+//             {
+//                 temp = num[j + 1];
+//                 num[j + 1] = num[j];
+//                 num[j] = temp;
+//             }
+//         }
+//     }
+//     for(int n : num){
+//         cout<<n<<" ";
+//     }
+//     return 0 ;
+// }
