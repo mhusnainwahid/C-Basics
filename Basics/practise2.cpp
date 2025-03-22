@@ -260,3 +260,61 @@ using namespace std;
 //         cout<<n<<" ";
 //     }
 // }
+// //Finding Percentage of even and odd in an array
+// int main(){
+//     array<int,5>num;
+//     for (size_t i = 0; i < num.size(); i++)
+//     {
+//         cout<<"Enter your "<<i + 1<<" number: ";
+//         cin>>num[i];
+//     }
+//     float count{0};
+//     float odd{0};
+//     for (size_t i = 0; i < num.size(); i++)
+//     {
+//         if(num[i] % 2 == 0){
+//             count++;
+//         }else{
+//             odd++;
+//         }
+//     }
+//     int evenPercent = (count / 5) * 100;
+//     int oddPercent = (odd / 5) * 100;
+
+//     cout<<"The percentage of even in this array is: "<<evenPercent<<"%"<<endl;
+//     cout<<"The percentage of odd in this array is: "<<oddPercent<<"%"<<endl;
+//     return 0 ;
+// }
+
+// //Repitions of Alphabets
+// int main(){
+//     array<char,100>alphabets;
+//     srand(time(0));
+//     int rand_num{0};
+//     for (size_t i = 0; i < alphabets.size(); i++)
+//     {
+//         rand_num = (rand() % 26) + 97;
+//         alphabets[i] = rand_num;
+//     }
+//     // for(int n : alphabets){
+//     //     cout<<n<<endl;
+//     // }
+//     // for (size_t i = 0; i < alphabets.size(); i++)
+//     // {
+//     //     cout<<i<<" "<<alphabets[i]<<endl;
+//     // }
+//     cout<<"Alphabet"<<setw(15)<<"Occurrence"<<endl;
+//     for (char i = 'a'; i <= 'z'; i++)
+//     {
+//         int count{0};
+//         for (size_t j = 0; j < alphabets.size(); j++)
+//         {
+//             if (i == alphabets[j])
+//             {
+//                 count++;
+//             }
+//         }
+//         cout<<setw(7)<<i<<setw(16)<<count<<endl;
+//     }
+//     return 0 ;
+// }
