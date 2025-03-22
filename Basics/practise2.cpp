@@ -362,3 +362,65 @@ using namespace std;
 //     }
 //     return 0 ;
 // }
+
+// // Problem1: Given two int values, return their sum. Unless the two values are the same, then return double their sum.
+// // sumDouble(1, 2) → 3
+// // sumDouble(3, 2) → 5
+// // sumDouble(2, 2) → 8
+
+// int main(){
+//     srand(time(0));
+//     while(true){
+//         int num1,num2;
+//         num1 = rand() % 11;
+//         num2 = rand() % 11;
+//         if(num1 == num2){
+//             cout<<num1<<" + "<<num2<<setw(15)<<" = "<<(num1 + num2) * 2<<endl;
+//             break;
+//         }else{
+//             cout<<num1<<" + "<<num2<<setw(15)<<" = "<<num1 + num2<<endl;
+//         }
+//     }
+//     return 0;
+// }
+
+// //Problem 2: 
+// // Given an int n, return the absolute difference between n and 21, except return double the absolute difference if n is over 21.
+// // diff21(19) → 2
+// // diff21(10) → 11
+// // diff21(21) → 0
+
+// int main(){
+//     int num;
+//     cout<<"Enter any number: ";
+//     cin>>num;
+//     if(num < 21){
+//         int result = abs(num - 21);
+//         cout<<result;
+//     }else{
+//         int result = 2 * (abs(num - 21));
+//         cout<<result;
+//     }
+// }
+
+// //Problem 3
+// // Given 2 ints, a and b, return true if one if them is 10 or if their sum is 10.
+// // makes10(9, 10) → true
+// // makes10(9, 9) → false
+// // makes10(1, 9) → true
+
+// int main(){
+//     int num1,num2;
+//     cout<<"Enter first number: ";
+//     cin>>num1;
+//     cout<<"Enter second number: ";
+//     cin>>num2;
+//     if(num1 == 10 || num2 == 10){
+//         cout<<"True";
+//     }else if(num1 + num2 == 10){
+//         cout<<"True";
+//     }else{
+//         cout<<"False";
+//     }
+//     return 0 ;
+// }
