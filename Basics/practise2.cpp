@@ -424,3 +424,20 @@ using namespace std;
 //     }
 //     return 0 ;
 // }
+
+// //Fibonacci Series
+// int main(){
+//     int count{0},num1{0},num2{1},sum{0};
+//     while(count <= 12){
+//         if(count <= 1){
+//             sum = count;
+//         }else{
+//             sum = num1 + num2;
+//             num1 = num2;
+//             num2 = sum;
+//         }
+//         cout<<sum<<",";
+//         count++;
+//     }
+//     return 0;
+// }
